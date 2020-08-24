@@ -2,8 +2,6 @@ module github.com/mdesson/shippy/shippy-cli-consignment
 
 go 1.14
 
-replace github.com/mdesson/shippy/shippy-service-consignment => ../shippy-service-consignment/
-
 replace google.golang.org/grpc => google.golang.org/grpc v1.26.0
 
 require (
@@ -12,7 +10,7 @@ require (
 	github.com/fsnotify/fsnotify v1.4.9 // indirect
 	github.com/gogo/protobuf v1.3.1 // indirect
 	github.com/imdario/mergo v0.3.11 // indirect
-	github.com/mdesson/shippy/shippy-service-consignment v0.0.0-20200821050300-166863613e0a
+	github.com/mdesson/shippy/shippy-service-consignment v0.0.0-20200823235232-9f33be65a106
 	github.com/micro/go-micro/v2 v2.9.1
 	github.com/miekg/dns v1.1.31 // indirect
 	github.com/nats-io/jwt v1.0.1 // indirect
